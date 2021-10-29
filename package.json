@@ -8,10 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielj32/Api_Hilda.git"
+    "url": "git+https://github.com/danielj32/Api_Hilda.git",
+    "start": "node index.js"
   },
   "keywords": [
-    "api"
+    "API",
+    "resful",
+    "json",
+    "node",
+    "mongodb",
+    "express"
   ],
   "author": "Juan Daniel Lopez Garcia",
   "license": "ISC",
