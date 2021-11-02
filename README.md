@@ -11,6 +11,9 @@ The `api` uri preceed all API endpoints and the following endpoints are currentl
 * PATCH `/api/creatures/:id`
 * DELETE `/api/creatures/:id`
 
+The live app is available on heroku here
+https://apihilda.herokuapp.com/api/creatures
+
 
 ### Contact Info:
 #### Git: danielj32
