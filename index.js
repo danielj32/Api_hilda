@@ -16,7 +16,9 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 // Connect to Mongoose and set connection variable
-mongoose.connect('mongodb://localhost/resthub', { useNewUrlParser: true});
+//mongoose.connect('mongodb://localhost/resthub', { useNewUrlParser: true});
+// Heroku Mongoose connection
+mongoose.connect('mongodb+srv://danieldevlopez:meli4567@cluster0.hljd4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useNewUrlParser: true });
 var db = mongoose.connection;
 
 // Added check for DB connection
